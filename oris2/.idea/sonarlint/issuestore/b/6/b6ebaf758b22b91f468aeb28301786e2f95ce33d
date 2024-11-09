@@ -1,0 +1,16 @@
+
+’
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ì—÷¦8ëÚúƒ±2J$b4861494-a5e8-4b6a-b610-7e56a46fc855
+‰
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(çß×úÿÿÿÿJ$e2de1e9c-80bc-469d-92ff-ba9efac6c364
+ˆ
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°ÁµşÿÿÿÿJ$46c8724b-bddd-4200-84f9-a839f7e87726
+w
+java:S6437"6Revoke and change this password, as it is compromised.(çß×úÿÿÿÿJ$aa5ff32e-ce22-4d36-b6d8-5fa9c1ce8411
+k	java:S106"+Replace this use of System.out by a logger.(¨¯¦‘üÿÿÿÿJ$6e83a3f2-5087-4095-97ea-40f5750cefe3
+k	java:S106"+Replace this use of System.out by a logger.(¥ìÓ¹ùÿÿÿÿJ$86aab172-4511-415b-a001-adc3a8476d50
+k	java:S106"+Replace this use of System.out by a logger.(¤Ï®ıÿÿÿÿJ$931e10f5-9495-46c8-a3e1-5b4e9fcc0204
+r	java:S106*"+Replace this use of System.out by a logger.(ïğš÷úÿÿÿÿ8ÜºÁ„±2J$1b3e11a1-bbab-4ddf-8243-8136b42c8498
+r	java:S106,"+Replace this use of System.err by a logger.(Ü÷ş´şÿÿÿÿ8Ö³ıƒ±2J$7633530d-409a-4610-8ba8-62c2b4b80be9
+v
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8â²„±2J$57b720ba-a067-4082-adfc-b600a811c34f
