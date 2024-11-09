@@ -1,0 +1,12 @@
+
+
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ä¶“†±2J$eb2cc3f1-8218-4ec8-bbf5-698dbd53a6c1
+
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(çß×úÿÿÿÿ8ä¶“†±2J$3d3401f6-93d6-43f7-838b-1cb47c12605c
+—
+java:S2095 "OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ª€şøÿÿÿÿ8ã¶“†±2J$89271dfa-f330-42ff-8f5e-1f86a8136fcf
+w
+java:S6437"6Revoke and change this password, as it is compromised.(çß×úÿÿÿÿJ$ca838b43-527f-4a76-b2d0-88c53ddb7663
+k	java:S106"+Replace this use of System.out by a logger.(¨¯¦‘üÿÿÿÿJ$19554f61-77f1-4eac-9db8-823e0900f8ec
+k	java:S106"+Replace this use of System.out by a logger.(¥ìÓ¹ùÿÿÿÿJ$5515378e-0388-477e-b50e-1ce97abec20c
+k	java:S106"+Replace this use of System.out by a logger.(¤Ï®ıÿÿÿÿJ$8f7ff214-3102-4ca3-b3e3-f54ecdcfc2ee

@@ -1,0 +1,16 @@
+
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ì—÷¦
+b
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+c
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(çß×úÿÿÿÿ
+Q
+java:S6437"6Revoke and change this password, as it is compromised.(çß×úÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¨¯¦‘üÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¥ìÓ¹ùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¤Ï®ıÿÿÿÿ
+E	java:S106*"+Replace this use of System.out by a logger.(ïğš÷úÿÿÿÿ
+E	java:S106,"+Replace this use of System.err by a logger.(Ü÷ş´şÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ

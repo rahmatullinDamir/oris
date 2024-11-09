@@ -13,6 +13,7 @@ public class RahmatullinDamir {
         Connection connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
         Statement statement = connection.createStatement();
         ResultSet result = statement.executeQuery("select * from driver");
+        Scanner scanner = new Scanner(System.in);
 
         while (result.next()) {
             System.out.println(result.getInt("id") + " " + result.getString("name") + " "
@@ -27,24 +28,20 @@ public class RahmatullinDamir {
                     resultWithOptions.getInt("age"));
         }
 
-        String sqlInsertUser = "insert into driver(name, surname, age) values (?, ?, ?)";
-        PreparedStatement pstmt = connection.prepareStatement(sqlInsertUser);
-
+        String sql = "INSERT INTO driver(name, surname, age) VALUES (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?)";
+        PreparedStatement pstmt = connection.prepareStatement(sql);
         for (int i = 0; i < 6; i++) {
-            pstmt.setString(1, "User" + i);
-            pstmt.setString(2, "Surname" + i);
-            pstmt.setInt(3, 30 + i);
-            pstmt.addBatch();
+            String firstName = scanner.nextLine();
+            String secondName = scanner.nextLine();
+            int age = Integer.parseInt(scanner.nextLine());
+
+            pstmt.setString(1 + i*3, firstName);
+            pstmt.setString(2 + i*3, secondName);
+            pstmt.setInt(3 + i*3, age);
         }
 
-        try {
-            int[] affectedRows = pstmt.executeBatch();
-            System.out.println("Добавлено " + affectedRows.length + " строк");
-        } catch (SQLException e) {
-            System.err.println("Ошибка: " + e.getMessage());
-        } finally {
-            pstmt.close();
-        }
+        pstmt.executeUpdate();
+        pstmt.close();
 
         connection.close();
     }
